@@ -1,0 +1,18 @@
+Building static library libz.a version 1.2.12 with /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc.
+Checking for size_t... No.
+Checking for long long... Yes.
+Checking for a pointer-size integer type... not found.
+Checking for off64_t... No.
+Checking for fseeko... No.
+Checking for strerror... No.
+Checking for unistd.h... No.
+Checking for stdarg.h... Yes.
+Checking whether to use vs[n]printf() or s[n]printf()... using s[n]printf().
+Checking for snprintf() in stdio.h... No.
+  WARNING: snprintf() not found, falling back to sprintf(). zlib
+  can build but will be open to possible buffer-overflow security
+  vulnerabilities.
+Checking for return value of sprintf()... No.
+  WARNING: apparently sprintf() does not return a value. zlib
+  can build but will be open to possible string-format security
+  vulnerabilities.

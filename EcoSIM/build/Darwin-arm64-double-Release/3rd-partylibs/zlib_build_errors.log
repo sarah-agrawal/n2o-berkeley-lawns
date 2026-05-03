@@ -1,0 +1,42 @@
+In file included from infback.c:13:
+In file included from ./zutil.h:22:
+In file included from ./zlib.h:34:
+In file included from ./zconf.hcrc32.c::44430::
+14In file included from :./zutil.h :fatal error: 'sys/types.h' file not found
+22:
+In file included from ./zlib.h:34:
+./zconf.h:444:14: fatal error: 'sys/types.h' file not found#    include <sys/types.h>      /* for off_t */
+#    include <sys/types.h>      /* for off_t */
+In file included from              ^~~~~~~~~~~~~deflate.c
+:52:
+In file included from ./deflate.h:16:
+In file included from ./zutil.h:22:
+In file included from ./zlib.h:34:
+./zconf.h:444:14: fatal error: 'sys/types.h' file not found
+#    include <sys/types.h>      /* for off_t */
+             ^~~~~~~~~~~~~
+
+             ^~~~~~~~~~~~~
+In file included from adler32.c:8:
+In file included from ./zutil.h:22:
+In file included from ./zlib.h:34:
+./zconf.h:444:14: fatal error: 'sys/types.h' file not found
+#    include <sys/types.h>      /* for off_t */
+             ^~~~~~~~~~~~~
+In file included from inffast.c:6:
+In file included from ./zutil.h:22:
+In file included from ./zlib.h:34:
+./zconf.h:444:14: fatal error: 'sys/types.h' file not found
+#    include <sys/types.h>      /* for off_t */
+             ^~~~~~~~~~~~~
+1 error generated.
+1 error generated.
+make: *** [inffast.o] Error 1
+make: *** Waiting for unfinished jobs....
+make: *** [adler32.o] Error 1
+1 error generated.
+1 error generated.
+1 error generated.
+make: *** [infback.o] Error 1
+make: *** [crc32.o] Error 1
+make: *** [deflate.o] Error 1

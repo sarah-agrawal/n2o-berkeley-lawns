@@ -1,0 +1,5 @@
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -DNO_FSEEKO -DNO_STRERROR -DNO_snprintf -DHAS_sprintf_void  -c -o adler32.o adler32.c
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -DNO_FSEEKO -DNO_STRERROR -DNO_snprintf -DHAS_sprintf_void  -c -o crc32.o crc32.c
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -DNO_FSEEKO -DNO_STRERROR -DNO_snprintf -DHAS_sprintf_void  -c -o deflate.o deflate.c
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -DNO_FSEEKO -DNO_STRERROR -DNO_snprintf -DHAS_sprintf_void  -c -o infback.o infback.c
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -DNO_FSEEKO -DNO_STRERROR -DNO_snprintf -DHAS_sprintf_void  -c -o inffast.o inffast.c
